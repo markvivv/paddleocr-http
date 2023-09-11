@@ -1,5 +1,5 @@
 # 基于paddle镜像，注意选择需要的版本号以及CPU、GPU类型
-FROM paddlepaddle/paddle:2.4.1
+FROM paddlepaddle/paddle:2.5.1
 
 # 设置工作目录为 /demo
 WORKDIR /home
